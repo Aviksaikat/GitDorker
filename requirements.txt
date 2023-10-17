@@ -1,3 +1,4 @@
 termcolor
 tqdm
 requests
+python-dotenv

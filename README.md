@@ -1,7 +1,7 @@
 ![Logo](https://github.com/obheda12/GitDorker/blob/master/GitDorker.png)
 
 # GitDorker
-GitDorker is a tool that utilizes the GitHub Search API and an extensive list of GitHub dorks that I've compiled from various sources to provide an overview of sensitive information stored on github given a search query. 
+GitDorker is a tool that utilizes the GitHub Search API and an extensive list of GitHub dorks that I"ve compiled from various sources to provide an overview of sensitive information stored on github given a search query. 
 
 The Primary purpose of GitDorker is to provide the user with a clean and tailored attack surface to begin harvesting sensitive information on GitHub. GitDorker can be used with additional tools such as GitRob or Trufflehog on interesting repos or users discovered from GitDorker to produce best results.
 
@@ -25,12 +25,12 @@ https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-a
 It is recommended to provide GitDorker with at least two GitHub personal access tokens so that it may alternate between the two during the dorking process and reduce the likelihood of being rate limited. Using multiple tokens from separate GitHub accounts will provide the best results.
 
 ## Dorks
-Within the dorks folder are a list of dorks. It is recommended to use the "alldorks.txt" file when mapping out your github secrets attack surface. The "alldorks.txt" is my collection of dorks that i've pulled from various resources, totalling to 239 individual dorks of sensitive github information.
+Within the dorks folder are a list of dorks. It is recommended to use the "alldorks.txt" file when mapping out your github secrets attack surface. The "alldorks.txt" is my collection of dorks that i"ve pulled from various resources, totalling to 239 individual dorks of sensitive github information.
 
 ## Usage
-I've created a blog post with far more detail in how to use GitDorker and potential use cases here: https://medium.com/@obheda12/gitdorker-a-new-tool-for-manual-github-dorking-and-easy-bug-bounty-wins-92a0a0a6b8d5 
+I"ve created a blog post with far more detail in how to use GitDorker and potential use cases here: https://medium.com/@obheda12/gitdorker-a-new-tool-for-manual-github-dorking-and-easy-bug-bounty-wins-92a0a0a6b8d5 
 
-For a full detailed look of use cases and how to use GitDorker's most updated features please see the BlackHat Presentation below:
+For a full detailed look of use cases and how to use GitDorker"s most updated features please see the BlackHat Presentation below:
 https://youtu.be/UwzB5a5GrZk
 
 Help Output:
